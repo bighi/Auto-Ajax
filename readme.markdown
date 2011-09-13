@@ -10,7 +10,7 @@ Let's say you want a link to make an ajax call to some.html and you want to appe
 
 This is all you need. The _data-remote_ parameter will tell auto-ajax to turn your link into an ajax request and _data-appendTo_ tells the script where to append whatever HTML comes back from that ajax call.
 
-# How to install
+## How to install
 
 Just download auto_ajax.js and call it inside your <header> as you would with any other javascript file.
 
@@ -20,7 +20,7 @@ That's it. You need no javascript code to make it work!
 
 Auto-Ajax recognizes some special parameters to do its magic. All of them begins with _data-_ to conform to HTML standards.
 
-**data-remote**
+### **data-remote**
 
 The only possible value for this is "auto-ajax". The script will work on elements where data-remote="auto-ajax". When the user interacts with this element, an ajax request is sent.
 
@@ -30,7 +30,7 @@ The URL for the ajax request is taken from the _action_ or _href_ parameters. Wh
 
 I decided to call it data-remote because Ruby On Rails uses data-remote="true" to make its Ajax magic.
 
-**data-update**
+### data-update
 
 Set data-update if you want the response to update the HTML inside an element. 
 
@@ -40,7 +40,7 @@ Example:
 
     <a href="path/to/some.php" data-remote="auto-ajax" data-update="#target">Try me</a>
 
-**data-appendTo**
+### data-appendTo
 
 Set this parameter if you want the response to be appended to an element.
 
@@ -50,11 +50,11 @@ Example:
 
     <a href="path/to/some.php" data-remote="auto-ajax" data-appendTo="div:first">Try me</a>
 
-**data-prependTo**
+### data-prependTo
 
 Like _appendTo_, but it prepends the response.
 
-**data-callback**
+### data-callback
 
 This is a special parameter. When set, the script will call a callback function with the response data.
 
