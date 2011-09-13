@@ -10,6 +10,12 @@ Let's say you want a link to make an ajax call to some.html and you want to appe
 
 This is all you need. The _data-remote_ parameter will tell auto-ajax to turn your link into an ajax request and _data-appendTo_ tells the script where to append whatever HTML comes back from that ajax call.
 
+# How to install
+
+Just download auto_ajax.js and call it inside your <header> as you would with any other javascript file.
+
+That's it. You need no javascript code to make it work!
+
 ## Special Parameters
 
 Auto-Ajax recognizes some special parameters to do its magic. All of them begins with _data-_ to conform to HTML standards.
