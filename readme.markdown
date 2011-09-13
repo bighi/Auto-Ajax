@@ -6,7 +6,7 @@ Let me start with an example:
 
 Let's say you want a link to make an ajax call to some.html and you want to append the response to a div with an id of "target".
 
-<a href="/path/to/some.html" data-remote="auto-ajax" data-appendTo="#target">Try me</a>
+    <a href="/path/to/some.html" data-remote="auto-ajax" data-appendTo="#target">Try me</a>
 
 This is all you need. The _data-remote_ parameter will tell auto-ajax to turn your link into an ajax request and _data-appendTo_ tells the script where to append whatever HTML comes back from that ajax call.
 
@@ -53,4 +53,4 @@ This is a special parameter. When set, the script will call a callback function 
 The value of this parameter should be an string with the name of a Javascript function.
 
 Example:
-        <a href="path/to/remove.php" data-remote="auto-ajax" data-callback="removeTask">Remove task</a>
+    <a href="path/to/remove.php" data-remote="auto-ajax" data-callback="removeTask">Remove task</a>
