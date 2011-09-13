@@ -31,6 +31,7 @@ Set data-update if you want the response to update the HTML inside an element.
 The value of this parameter is any kind of jQuery selector, like "#id" or ".class" or even "div.post p:first".
 
 Example:
+
     <a href="path/to/some.php" data-remote="auto-ajax" data-update="#target">Try me</a>
 
 **data-appendTo**
@@ -40,6 +41,7 @@ Set this parameter if you want the response to be appended to an element.
 Like the above, the value of this parameter is a jQuery selector.
 
 Example:
+
     <a href="path/to/some.php" data-remote="auto-ajax" data-appendTo="div:first">Try me</a>
 
 **data-prependTo**
@@ -53,4 +55,5 @@ This is a special parameter. When set, the script will call a callback function 
 The value of this parameter should be an string with the name of a Javascript function.
 
 Example:
+
     <a href="path/to/remove.php" data-remote="auto-ajax" data-callback="removeTask">Remove task</a>
