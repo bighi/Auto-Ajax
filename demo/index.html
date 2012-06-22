@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Auto-Ajax demo</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script type="text/javascript" src="../auto_ajax.js"></script>
+</head>
+<body>
+    <div>
+        <a href="./response.html" data-remote="auto-ajax" data-update="#response">Click me to update!</a><br><br>
+
+        <form action="./response.html" data-remote="auto-ajax" data-prependTo="#response">
+            <select data-remote="auto-ajax" href="./response.html" data-appendTo="#response">
+                <option value="1">Change to append</option>
+                <option value="2">Second</option>
+                <option value="3">Third</option>
+            </select><br>
+
+            <input type="submit" value="Prepend on submit">
+        </form>
+    </div>
+    <br>
+    <div id="response">
+        Response should come here. 
+    </div>
+</body>
+</html>

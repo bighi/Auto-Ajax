@@ -27,6 +27,7 @@ $.fn.ajax_submit = function() {
 };
 
 $.fn.autoAjax = function() {
+	console.log('auto ajax!');
 	$(this).ajax_submit();
 	return false;
 };
