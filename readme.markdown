@@ -2,6 +2,8 @@
 
 Auto-Ajax is a jQuery plugin that allows you to make basic ajax operations with no javascript code. All you need is HTML.
 
+This project is licensed under the MIT license agreement. This means you can copy, redistribute, change, sell, whatever your want, as long as you keep the permission notice and its copyright information. See the [full text of the license][1] for details.
+
 Let me start with an example:
 
 Let's say you want a link to make an ajax call to some.html and you want to append the response to a div with an id of "target".
@@ -63,3 +65,5 @@ The value of this parameter should be an string with the name of a Javascript fu
 Example:
 
     <a href="path/to/remove.php" data-remote="auto-ajax" data-callback="removeTask">Remove task</a>
+
+[1]:/mit-license.txt
