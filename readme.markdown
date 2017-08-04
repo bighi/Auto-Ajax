@@ -1,5 +1,11 @@
 # Auto-Ajax
 
+## WARNING
+
+THIS IS VERY OLD AND MAY NOT WORK ANYMORE. USE AT YOUR OWN RISK!
+
+## What is Auto-Ajax
+
 Auto-Ajax is a jQuery plugin that allows you to make basic ajax operations with no javascript code. All you need is HTML.
 
 This project is licensed under the MIT license agreement. This means you can copy, redistribute, change, sell, whatever your want, as long as you keep the permission notice and its copyright information. See the [full text of the license][1] for details.
